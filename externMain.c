@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int count;
+extern int count;
 extern void write_extern();
 
 int main()
 {
-   count = 5;
    write_extern();
+   printf("count = %d", count);
 
 }
 

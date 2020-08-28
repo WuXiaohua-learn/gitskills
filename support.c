@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-extern int count;
+int count = 10;
 
 void write_extern()
 {
-   printf("count is %d",count);
+   printf("count is %d\n",count);
 }
